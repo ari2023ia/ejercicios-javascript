@@ -142,13 +142,13 @@ function evaluarNumeros(a, b, c) {
     {
         console.log("todos son positivos")
     }
-    else if ( a < 0 || b < 0 || c < 0 )
-    {
-        console.log("uno es negativo");
-    }
     else if ( a < 0 && b < 0 && c < 0 )
     {
         console.log("todos son negativos");
+    }
+    else if ( a < 0 || b < 0 || c < 0 )
+    {
+        console.log("uno es negativo");
     }
     else
     {
