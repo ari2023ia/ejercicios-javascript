@@ -49,7 +49,7 @@
 
 // 3. Function Expression
 // 3.1 Crea una **function expression** que multiplique dos números y asígnala a la variable `multiplicarDOS`.
-    const mult = function (a, b) {
+    const multiplicarDOS = function (a, b) {
         return a * b;
     }
 
