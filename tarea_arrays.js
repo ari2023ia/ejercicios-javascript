@@ -29,8 +29,7 @@ console.log(sumarPares(numeros));
 // 3. Buscar en Arrays
 // 3.1 Escribe una función llamada `palabrasTerminanConA` que reciba un array de palabras y devuelva `true` si todas terminan con "a", o `false` si al menos una no lo hace.
 function palabrasTerminanConA(palabras) {
-    const todosTienenA = palabras.every(palabra => palabra.includes('a' || 'A'));
-    return todosTienenA;
+    return palabras.every(palabra => palabra.endsWith('a'));
 }
 
 const palabras = ['casa', 'silla', 'mesa'];
