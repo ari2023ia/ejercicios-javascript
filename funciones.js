@@ -49,7 +49,7 @@
 
 // 3. Function Expression
 // 3.1 Crea una **function expression** que multiplique dos números y asígnala a la variable `multiplicarDOS`.
-    const multiplicarDOS = function (a, b) {
+    const mult = function (a, b) {
         return a * b;
     }
 
@@ -60,7 +60,7 @@
 
 // 3.3 Crea una **function expression** llamada `esPar` que acepte un número como parámetro y devuelva `true` si el número es par, o `false` en caso contrario.
     const esPar = function (a) {
-        if (a % 2)
+        if (a % 2 === 0)
         {
             return true;
         }
@@ -81,9 +81,7 @@
     const saludarFlecha = nombre => 'Hola, ' + nombre;
 
 // 4.3 Escribe una función flecha llamada `calcularArea` que reciba el radio de un círculo y devuelva el área del círculo. Usa la fórmula A = π * r².
-const calcularArea = radio => {
-    return 3.1415 * radio ** 2;
-};
+const calcularArea = radio => Math.PI * Math.pow(radio, 2);
 
 // 5. Recursividad
 // 5.1 Escribe una función que calcule la suma de los primeros n números enteros de forma recursiva. Por ejemplo: `suma(3) -> 1 + 2 + 3 = 6`
